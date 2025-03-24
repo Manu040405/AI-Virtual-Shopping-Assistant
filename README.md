@@ -36,16 +36,17 @@ To expand the dataset:
 ```bash
 python3 getDataset.py
 ```
-🔑 API Configuration
+
+## 🔑 API Configuration
 This application uses the Anthropic API for its intelligent shopping assistant chat feature.
 
-Sign up for an API key at Anthropic's website.
-Create a file named .env in the project root directory.
-Add your API key to the file:
-
-CopyANTHROPIC_API_KEY=your_api_key_here
-
-The application will automatically load this key when running the chat interface.
+1. Sign up for an API key at [Anthropic's website](https://www.anthropic.com/).
+2. Create a file named `.env` in the project root directory.
+3. Add your API key to the file:
+```
+ANTHROPIC_API_KEY=your_api_key_here
+```
+4. The application will automatically load this key when running the chat interface.
 
 ## 🚀 Getting Started
 Clone the repository:
@@ -66,12 +67,12 @@ To expand the item database, add more data files to the `data/` directory.
   <img src="https://github.com/Manu040405/AI-Virtual-Shopping-Assistant/blob/main/ai.png" alt="Output" />
   <img src="https://github.com/Manu040405/AI-Virtual-Shopping-Assistant/blob/main/next.png" alt="Output" />
 </p>
-💬 Chat Interface
-The application features an AI-powered chat interface where users can:
 
-Ask for product recommendations
-Get detailed product information
-Compare different products
-Receive personalized suggestions based on their browsing history
+## 💬 Chat Interface
+The application features an AI-powered chat interface where users can:
+- Ask for product recommendations
+- Get detailed product information
+- Compare different products
+- Receive personalized suggestions based on their browsing history
 
 The chat interface is powered by Anthropic's API, providing natural and helpful responses to enhance the shopping experience.
