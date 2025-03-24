@@ -1,38 +1,29 @@
-🛍️ AI-Based Shopping Assistant
-This project was developed for Codeutsava 3.0 at NIT Raipur (2019).
-Its main goal is to create an AI-powered recommendation system for online shopping using unsupervised machine learning (clustering).
+# 🛍️ AI-Based Shopping Assistant  
+Its main goal is to create an **AI-powered recommendation system** for online shopping using **unsupervised machine learning** (clustering).
 
-🧠 Project Overview
-Uses clustering to group items based on a user's purchase history.
+## 🧠 Project Overview
 
-When a user searches for a product, the model:
+- Uses **clustering** to group items based on a user's purchase history.
+- When a user searches for a product, the model:
+  - Identifies the most relevant cluster.
+  - Recommends similar items from that cluster under the **"Things You May Like"** section.
+- Additionally, it also displays results for variations of the searched item (not part of the core recommendation logic, but added for better UX).
 
-Identifies the most relevant cluster.
+---
 
-Recommends similar items from that cluster under the "Things You May Like" section.
+## ⚙️ Requirements
 
-Additionally, it also displays results for variations of the searched item (not part of the core recommendation logic, but added for better UX).
+- **Python 3.6**
+- Libraries:
+  - [NumPy](http://www.numpy.org/)
+  - [Pandas](https://pandas.pydata.org/)
+  - [OpenCV](https://pypi.org/project/opencv-python/)
+  - [scikit-learn](https://scikit-learn.org/stable/)
+  - [matplotlib](https://matplotlib.org/)
 
-⚙️ Requirements
-Python 3.6
+Install dependencies using pip:
 
-Libraries:
-
-NumPy
-
-Pandas
-
-OpenCV
-
-scikit-learn
-
-matplotlib
-
-Install using pip:
-
-bash
-Copy
-Edit
+```bash
 pip install numpy pandas opencv-python scikit-learn matplotlib
 📊 Dataset
 Custom dataset: person.csv
@@ -71,13 +62,3 @@ To expand the item database, add more data files to the data/ directory.
 
 🎯 Output
 <p align="center"> <img src="output.gif" alt="Demo Output" /> </p>
-📌 Notes
-This project is a prototype and can be enhanced further with:
-
-Larger datasets
-
-User profiling
-
-Integration with front-end interfaces
-
-Deep learning-based recommendations
