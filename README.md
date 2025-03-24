@@ -40,7 +40,7 @@ python3 getDataset.py
 ## 🚀 Getting Started
 Clone the repository:
 ```bash
-git clone https://github.com/riti1302/AI-Based-Shopping-Assistant
+git clone https://github.com/Manu040405/AI-Virtual-Shopping-Assistant
 cd AI-Based-Shopping-Assistant
 ```
 
@@ -53,5 +53,5 @@ To expand the item database, add more data files to the `data/` directory.
 
 ## 📸 Output
 <p align="center">
-  <img src="output.gif" alt="Demo Output" />
+  <img src="" alt="Demo Output" />
 </p>
