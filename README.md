@@ -2,7 +2,6 @@
 Its main goal is to create an **AI-powered recommendation system** for online shopping using **unsupervised machine learning** (clustering).
 
 ## 🧠 Project Overview
-
 - Uses **clustering** to group items based on a user's purchase history.
 - When a user searches for a product, the model:
   - Identifies the most relevant cluster.
@@ -12,7 +11,6 @@ Its main goal is to create an **AI-powered recommendation system** for online sh
 ---
 
 ## ⚙️ Requirements
-
 - **Python 3.6**
 - Libraries:
   - [NumPy](http://www.numpy.org/)
@@ -22,43 +20,38 @@ Its main goal is to create an **AI-powered recommendation system** for online sh
   - [matplotlib](https://matplotlib.org/)
 
 Install dependencies using pip:
-
 ```bash
 pip install numpy pandas opencv-python scikit-learn matplotlib
-📊 Dataset
-Custom dataset: person.csv
+```
 
-Currently supports 100 items.
+## 📊 Dataset
+**Custom dataset:** `person.csv`  
+Currently supports **100 items**.
 
 To expand the dataset:
-
-Open getDataset.py
-
-Add more items to the item list.
-
-Delete person.csv and dataset.csv
-
-Run:
-
-bash
-Copy
-Edit
+1. Open `getDataset.py`
+2. Add more items to the `item` list.
+3. Delete `person.csv` and `dataset.csv`
+4. Run:
+```bash
 python3 getDataset.py
-🚀 Usage
-Clone the repository:
+```
 
-bash
-Copy
-Edit
+## 🚀 Getting Started
+Clone the repository:
+```bash
 git clone https://github.com/riti1302/AI-Based-Shopping-Assistant
 cd AI-Based-Shopping-Assistant
+```
+
 Run the main script:
-
-bash
-Copy
-Edit
+```bash
 python3 main.py
-To expand the item database, add more data files to the data/ directory.
+```
 
-🎯 Output
-<p align="center"> <img src="output.gif" alt="Demo Output" /> </p>
+To expand the item database, add more data files to the `data/` directory.
+
+## 📸 Output
+<p align="center">
+  <img src="output.gif" alt="Demo Output" />
+</p>
