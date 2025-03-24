@@ -1,36 +1,83 @@
-# AI-Based-Shopping-Assistant
+🛍️ AI-Based Shopping Assistant
+This project was developed for Codeutsava 3.0 at NIT Raipur (2019).
+Its main goal is to create an AI-powered recommendation system for online shopping using unsupervised machine learning (clustering).
 
-This project was submitted in codeutsava3.0 at NIT Raipur 2019.     
-The main purpose of this project is to create a recommendation system for online shopping. We used unsupervised machine learning strategy (clustering) to cluster the items from the consumer's purchase history which shows same characterstics. When a consumer triggers a search, the model finds the most suitable cluster for searched item and shows all the items of that cluster to the consumer after some filtering under "things you may like" section.        
-Also it shows results for the different types of searched item too (This is not a part of the recommendation system. This is just a added feature).    
+🧠 Project Overview
+Uses clustering to group items based on a user's purchase history.
 
-## Requirements
-This project is build on python version 3.6
-Libraries used:      
-[Numpy](http://www.numpy.org/)      
-[Pandas](https://pandas.pydata.org/)       
-[openCV](https://pypi.org/project/opencv-python/)       
-[sklearn](https://scikit-learn.org/stable/)       
-[matplotlib](https://matplotlib.org/)       
+When a user searches for a product, the model:
 
-## Dataset
-We created our own [dataset](person.csv). Currently we used the model for 100 items. 
-To increase the dataset open the [getDataset.py](getDataset.py) file and add the items in the "item" list. Then delete the person.csv, dataset.csv files and run
+Identifies the most relevant cluster.
 
-    python3 getDataset.py
-    
+Recommends similar items from that cluster under the "Things You May Like" section.
 
-## Usage
-Download the Complete Project
+Additionally, it also displays results for variations of the searched item (not part of the core recommendation logic, but added for better UX).
 
-	git clone https://github.com/riti1302/AI-Based-Shopping-Assistant
-  
-Run the main file
+⚙️ Requirements
+Python 3.6
 
-    python3 main.py
-    
-To increse the database, add more files to [Database](data/)
+Libraries:
 
+NumPy
 
-## Output
-<p align="center"> <img src="output.gif"/> </p>
+Pandas
+
+OpenCV
+
+scikit-learn
+
+matplotlib
+
+Install using pip:
+
+bash
+Copy
+Edit
+pip install numpy pandas opencv-python scikit-learn matplotlib
+📊 Dataset
+Custom dataset: person.csv
+
+Currently supports 100 items.
+
+To expand the dataset:
+
+Open getDataset.py
+
+Add more items to the item list.
+
+Delete person.csv and dataset.csv
+
+Run:
+
+bash
+Copy
+Edit
+python3 getDataset.py
+🚀 Usage
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/riti1302/AI-Based-Shopping-Assistant
+cd AI-Based-Shopping-Assistant
+Run the main script:
+
+bash
+Copy
+Edit
+python3 main.py
+To expand the item database, add more data files to the data/ directory.
+
+🎯 Output
+<p align="center"> <img src="output.gif" alt="Demo Output" /> </p>
+📌 Notes
+This project is a prototype and can be enhanced further with:
+
+Larger datasets
+
+User profiling
+
+Integration with front-end interfaces
+
+Deep learning-based recommendations
