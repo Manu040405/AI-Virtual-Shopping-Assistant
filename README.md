@@ -34,7 +34,7 @@ To expand the dataset:
 3. Delete `person.csv` and `dataset.csv`
 4. Run:
 ```bash
-python3 getDataset.py
+python getDataset.py
 ```
 
 ## 🔑 API Configuration
@@ -57,7 +57,7 @@ cd AI-Based-Shopping-Assistant
 
 Run the main script:
 ```bash
-python3 main.py
+python main.py
 ```
 
 To expand the item database, add more data files to the `data/` directory.
