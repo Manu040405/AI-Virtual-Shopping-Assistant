@@ -53,5 +53,6 @@ To expand the item database, add more data files to the `data/` directory.
 
 ## 📸 Output
 <p align="center">
-  <img src="" alt="Demo Output" />
+  <img src="https://github.com/Manu040405/AI-Virtual-Shopping-Assistant/blob/main/ai.png" alt="Output" />
+  <img src="https://github.com/Manu040405/AI-Virtual-Shopping-Assistant/blob/main/next.png" alt="Output" />
 </p>
